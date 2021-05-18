@@ -1,0 +1,24 @@
+.header-content {
+  margin: 0 90px;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navigation ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.header-navigation ul li a {
+  text-decoration: none;
+  font: normal 600 1rem/1.5rem arial var(--fontGlobal);
+  cursor: pointer;
+  color: white;
+}
+
+.header-navigation ul li {
+  padding: 0.5rem 1rem;
+}

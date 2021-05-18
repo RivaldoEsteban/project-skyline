@@ -1,0 +1,94 @@
+.hero-content {
+  margin: 0 90px;
+  text-align: center;
+  padding-bottom: 128px;
+  border: 1px solid red;
+}
+
+.hero-title {
+  font: normal 600 3.37rem/4.006rem var(--fontGlobal);
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+  color: white;
+}
+
+.hero-title b {
+  color: transparent;
+  background-image: linear-gradient(
+    to bottom,
+    #7153f5 9.24%,
+    #2b51ea 12.89%,
+    #b92ec1 17.05%,
+    #c8717a 28.4%,
+    #3480b8 64.97%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hero-buttons {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.buy {
+  border: 1px solid white;
+  background: none;
+  color: white;
+}
+
+.download {
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #bf9079 3.33%,
+    #c8717a 28.4%,
+    #b92ec1 46.32%,
+    #2b51ea 67.28%,
+    #3480b8 83.94%
+  );
+  color: white;
+}
+
+.hero-txt {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.hero-txt p {
+  margin: 0;
+}
+
+.hero-button-white {
+  background: white;
+  border: none;
+  margin: 0 0 2rem 0;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-txt-button {
+  display: flex;
+  color: white;
+  text-align: start;
+  background: radial-gradient(rgba(75, 102, 216, 0.4) 10%, #0e0c20 70%);
+  max-width: 250px;
+  padding: 5rem;
+  margin-top: 2rem;
+}
+
+.hero-txt-button p {
+  margin: 0;
+  line-height: 1.6rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
