@@ -135,6 +135,7 @@
 
 .main-ia-style-img {
   color: white;
+  margin: 0 90px;
 }
 
 .main-ia-style-img h2 {
@@ -185,6 +186,7 @@
 .shared-feeling {
   display: flex;
   justify-content: space-between;
+  margin: 0 90px;
 }
 
 .shared-feeling-title {
@@ -228,6 +230,7 @@
 
 .main-ia-edition {
   color: white;
+  margin: 0 90px;
 }
 
 .main-ia-edition h2 {
@@ -278,6 +281,7 @@
 
 .effect-types {
   color: white;
+  margin: 0 90px;
 }
 
 .effect-types div {
@@ -325,6 +329,10 @@
 .luminar-ia-container {
   background: linear-gradient(180deg, #3442a8 0%, #0e0c20 50%);
   padding-top: 128px;
+}
+
+.luminar-ia-content {
+  margin: 0 90px;
 }
 
 .luminar-ia {
