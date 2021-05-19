@@ -319,6 +319,17 @@ button {
 }
 
 @media (max-width: 480px) {
+  .header-content,
+  .hero-content,
+  .main-ia-description-top-content,
+  .main-ia-assistance,
+  .main-ia-style-img,
+  .shared-feeling,
+  .main-ia-edition,
+  .luminar-ia-content,
+  .footer {
+    margin: 0 20px;
+  }
   .content-left {
     margin-top: 520px;
   }
@@ -327,14 +338,21 @@ button {
   }
   .content-right {
     gap: 3rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .content-right h3 {
+    width: 42%;
+    font-size: 1rem;
   }
 }
 @media (max-width: 400px) {
   .content-left {
-    margin-top: 800px;
+    margin-top: 410px;
   }
   .content-mid {
-    margin-top: 800px;
+    margin-top: 410px;
   }
   .content-right {
     gap: 3rem;
