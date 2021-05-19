@@ -297,6 +297,9 @@ button {
   h2 {
     font-size: 30px !important;
   }
+  b {
+    font-size: 30px !important;
+  }
   .content-right h3 {
     font-size: 18px;
   }
