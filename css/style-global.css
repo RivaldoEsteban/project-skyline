@@ -170,35 +170,36 @@ button {
     gap: 0;
   }
   .content-right {
-    margin: auto;
-    margin-bottom: 40px;
+    order: 1;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    max-width: 600px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
   }
+
   .content-left {
-    width: 40%;
-    margin: 400px auto 0;
+    order: 2;
+    width: 46%;
+    margin: 0 auto;
+    max-width: 100%;
   }
   .content-mid {
-    width: 40%;
-    margin: 400px auto 0;
-    gap: 0;
+    margin: 0 auto;
+    order: 3;
+    width: 46%;
+    max-width: 100%;
   }
   .content-right h3 {
-    margin: 0;
-    width: 260px;
+    margin: 1rem 0;
+    width: 45%;
   }
+
   .content-right button {
     position: initial;
     max-width: 350px;
     margin: auto;
+    margin: 1.5rem 0;
   }
   .ia-can-do {
     flex-direction: column;
@@ -219,10 +220,28 @@ button {
     flex-direction: column;
     text-align: center;
   }
+  .effect-types-top {
+    order: 3;
+    text-align: center;
+  }
+  .effect-types-mid {
+    order: 2;
+  }
+  .effect-types-bot {
+    order: 1;
+  }
+  .effect-types div p {
+    font-size: 32px;
+    width: 100%;
+  }
+  .effect-types div p::after {
+    font-size: 18px;
+    top: -20px;
+  }
   .effect-types div {
-    /* display: block; */
-    flex-direction: column;
-    align-items: flex-start;
+    display: block;
+    max-width: 40%;
+    margin: 0;
   }
   .effect-types {
     display: flex;
@@ -249,6 +268,13 @@ button {
   .frequent-questions-title h2 {
     max-width: 100%;
   }
+  .shared-feeling-title {
+    padding: 20px;
+    gap: 50px;
+  }
+  .shared-feeling-title h2 {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -268,6 +294,15 @@ button {
 }
 
 @media (max-width: 600px) {
+  h2 {
+    font-size: 30px !important;
+  }
+  .content-right h3 {
+    font-size: 18px;
+  }
+  .content-right button {
+    max-width: 100%;
+  }
   .header-content,
   .hero-content,
   .main-ia-description-top-content,
@@ -299,22 +334,18 @@ button {
     font-size: 28px;
     margin: 40px 0;
   }
-  .content-right h3 {
-    width: 150px;
-  }
-  .content-left {
-    margin-top: 420px;
-  }
-  .content-mid {
-    margin-top: 420px;
-  }
   .effect-types {
-    width: 90%;
     margin: auto;
   }
   .effect-types div {
-    width: auto;
     margin: 0;
+  }
+  .effect-types div p {
+    font-size: 28px;
+    width: 100%;
+  }
+  .effect-types div p::after {
+    top: -10px;
   }
 }
 
@@ -330,31 +361,8 @@ button {
   .footer {
     margin: 0 20px;
   }
-  .content-left {
-    margin-top: 520px;
-  }
-  .content-mid {
-    margin-top: 520px;
-  }
-  .content-right {
-    gap: 3rem;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0;
-  }
-  .content-right h3 {
-    width: 42%;
-    font-size: 1rem;
-  }
-}
-@media (max-width: 400px) {
-  .content-left {
-    margin-top: 410px;
-  }
-  .content-mid {
-    margin-top: 410px;
-  }
-  .content-right {
-    gap: 3rem;
+  .effect-types div p {
+    font-size: 24px;
+    width: 100%;
   }
 }
